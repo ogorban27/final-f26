@@ -512,7 +512,7 @@ main section {
 /* Interior Layout */
 .house-interior {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     border: 12px solid #854c38;
     background-color: #854c38;
     gap: 8px;
@@ -572,7 +572,6 @@ main section {
 
 .house-interior .outside {
     background-color: #b6c99e;
-    grid-column: 1 / -1;
 }
 
 @media (min-width: 900px) {
@@ -703,5 +702,13 @@ main section {
         width: 45px;
         height: 45px;
         font-size: 20px;
+    }
+
+    .house-interior {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .house-interior .outside {
+        grid-column: 1 / -1;
     }
 }
