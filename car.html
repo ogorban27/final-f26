@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Jams | Olivia Orban</title>
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <header>
+  <a href = "#main" class="skip">Skip to Main Content</a>
+        <img src="images/Logo.png" alt="Two girls leaning on each other">
+        <nav>
+            <ul>
+                <li><a href = "index.html">Homepage</a></li>
+                <li><a href = "travel.html">Travel Locations</a></li>
+                <li><a href = "car.html" class="active">Car Jams</a></li>
+                <li><a href = "staying.html">Staying In</a></li>
+            </ul>
+        </nav>
+  </header>
+<main id="main">
+    <!-- Car windshield and dashboard view -->
+    <section class="car-view">
+
+        <div class="top-title">
+            <h1>Car Jams</h1>
+            <p>The vibes make the journey</p>
+        </div>
+
+        <!-- View through the windshield -->
+        <div class="windshield">
+            <div class="sun"></div>
+
+            <div class="mountains mountain-one"></div>
+            <div class="mountains mountain-two"></div>
+
+            <div class="road"></div>
+            <div class="road-line"></div>
+        </div>
+
+        <!-- Car interior -->
+        <div class="car-interior">
+
+            <div class="dashboard">
+                <p class="now-playing">NOW PLAYING</p>
+
+                <h2 id="song-title" class="music-title">Song Title</h2>
+                <p id="artist-name">Artist Name</p>
+                <span id="song-number">01 / 52</span>
+
+                <div class="song-progress">
+                    <div class="progress-fill"></div>
+                </div>
+
+                <p class="dashboard-message">
+                    windows down
+                </p>
+            </div>
+
+            <div class="steering-wheel">
+                <div class="wheel-center"></div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Full song list -->
+    <section class="playlist-section" id="playlist">
+
+        <h2>The Playlist: windows down</h2>
+        <p class="playlist-subtitle">
+            Every song is part of the journey.
+        </p>
+
+        <div class="song-list" id="song-list">
+
+            <!-- Songs are added using JavaScript -->
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+</main>
+    <footer>
+        <p>Olivia and Emma | Best Friends since 2019</p>
+      <p>&copy; 2026 Olivia Orban</p>
+    </footer>
+</body>
+</html>
